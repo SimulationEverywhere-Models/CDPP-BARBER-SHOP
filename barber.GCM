@@ -1,0 +1,109 @@
+# Title:Barber
+# background:
+# cant units:2
+# 	Unit class:gui.model.unit.ImportedFromRegisterAtomicModelUnit
+# 	Unique ID:2
+# 	location x:194
+# 	location y:46
+# 	name:cuthair
+# 	Filename:
+# 	export classpath:
+# 	  class:gui.representation.Image
+# 	  filename:atomico.gif
+# 	cant Initial params:0
+# 	Model imported form register:Cuthair
+# 	cant ports:2
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:2
+# 	Port ID:cutcontinue
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:3
+# 	Port ID:progress
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	Unit class:gui.model.unit.ImportedFromRegisterAtomicModelUnit
+# 	Unique ID:3
+# 	location x:192
+# 	location y:169
+# 	name:checkhair
+# 	Filename:
+# 	export classpath:
+# 	  class:gui.representation.Image
+# 	  filename:atomico.gif
+# 	cant Initial params:0
+# 	Model imported form register:Checkhair
+# 	cant ports:4
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:1
+# 	Port ID:cust
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:2
+# 	Port ID:finished
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:3
+# 	Port ID:cutcontinue
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:4
+# 	Port ID:progress
+# 	Port In/Out:In
+# 	Port Type:Float
+# cant ports:2
+# 	Port Class:gui.model.port.CoupledPort
+# 	Port UniqueId:0
+# 	Port ID:in
+# 	Port In/Out:In
+# 	Port Type:Float
+# 	location x:65
+# 	location y:144
+# 	  class:gui.representation.Image
+# 	  filename:pi.gif
+# 	Port Class:gui.model.port.CoupledPort
+# 	Port UniqueId:1
+# 	Port ID:out
+# 	Port In/Out:Out
+# 	Port Type:Float
+# 	location x:415
+# 	location y:149
+# 	  class:gui.representation.Image
+# 	  filename:po.gif
+# Cant Links:4
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:4
+# 			start unit Point:0
+# 			end unit Point:3
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:0
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:1
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:5
+# 			start unit Point:3
+# 			end unit Point:1
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:2
+# 			Port Class:gui.model.port.CoupledPort
+# 			PortRef:1
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:6
+# 			start unit Point:3
+# 			end unit Point:2
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:3
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:2
+# 			Link Type:gui.model.link.CoupledLink
+# 			Link unique Id:7
+# 			start unit Point:2
+# 			end unit Point:3
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:3
+# 			Port Class:gui.model.port.AtomicPort
+# 			PortRef:4
